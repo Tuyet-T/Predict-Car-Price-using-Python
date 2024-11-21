@@ -15,10 +15,10 @@ Provide customers with tools to identify fair deals.
 
 Enhance market transparency in the used car industry.
 
-3. Evaluation Criteria
+2. Evaluation Criteria
 Models are evaluated using Mean Squared Error (MSE). The lowest MSE determines the best model.
 
-4. Dataset Overview
+3. Dataset Overview
 
 Training Data: 38 features + target variable (price).
 
@@ -28,7 +28,7 @@ Data Types: Numerical and categorical.
 
 Unique ID: vin (excluded from modeling).
 
-5. Tasks
+4. Tasks
 Data Cleaning:
 
 Extract numerical values from mixed-type columns (e.g., back_legroom).
