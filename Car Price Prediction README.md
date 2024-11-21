@@ -30,14 +30,14 @@ Data Types: Numerical and categorical.
 Unique ID: vin (excluded from modeling).
 
 4. Tasks
-Data Cleaning:
 
-Extract numerical values from mixed-type columns (e.g., back_legroom).
-Impute missing values.
+Imputing missing values
 
-Encode categorical features (map infrequent values to other and encode appropriately).
+Extracting numerical values from mixed-type columns (e.g., back_legroom)
 
-Transform dates into numeric features (e.g., numeric_days).
+Encoding categorical features (map infrequent values to other and encode appropriately).
+
+Transforming dates into numeric features (e.g., numeric_days).
 
 Exploratory Data Analysis (EDA): Analyze relationships between features and price (heatmap) & Visualize data trends patterns.
 
