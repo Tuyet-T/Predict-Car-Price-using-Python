@@ -4,19 +4,28 @@ This project predicts used car sale prices based on car characteristics as part 
 
 Project Workflow
 1. Forecasting Problem
-Predict used car prices using regression models. The goal is to predict used car sale prices based on various car characteristics.
+
+The goal is to predict used car sale prices based on various car characteristics.
+
 Accurate forecasts can:
+
 Aid car dealers in setting competitive and profitable prices.
+
 Provide customers with tools to identify fair deals.
+
 Enhance market transparency in the used car industry.
 
 3. Evaluation Criteria
 Models are evaluated using Mean Squared Error (MSE). The lowest MSE determines the best model.
 
 4. Dataset Overview
+
 Training Data: 38 features + target variable (price).
+
 Test Data: 37 features.
+
 Data Types: Numerical and categorical.
+
 Unique ID: vin (excluded from modeling).
 
 5. Tasks
@@ -30,6 +39,7 @@ Encode categorical features (map infrequent values to other and encode appropria
 Transform dates into numeric features (e.g., numeric_days).
 
 Exploratory Data Analysis (EDA): Analyze relationships between features and price (heatmap) & Visualize data trends patterns.
+
 Machine Learning Model: Tuning hyper parameters, train and test XGBoost, Random Forest, and KNN regressors for price prediction.
 
 Submit forecasts to Kaggle.
