@@ -16,6 +16,7 @@ Provide customers with tools to identify fair deals.
 Enhance market transparency in the used car industry.
 
 2. Evaluation Criteria
+
 Models are evaluated using Mean Squared Error (MSE). The lowest MSE determines the best model.
 
 3. Dataset Overview
